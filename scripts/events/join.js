@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি টম এর বট তোমাদের মাঝে লুচ্চামি করতে🥵🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!!
 
@@ -65,7 +65,7 @@ ____________________________________\n\nযেকোনো কমান্ড �
 ____________________________________
 যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS 
 OM E_কে নক করতে পারেন 
-👉FB link: https://www.facebook.com/profile.php?id=61552248422194
+👉FB link:https://www.facebook.com/ceokuangtomyi 
 -
 `, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")}, threadID));
 })
