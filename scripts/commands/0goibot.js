@@ -26,7 +26,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    
     if ((event.body.toLowerCase() =="🙋‍♂️" ) || (event.body.toLowerCase() == "👍")) {
-     return api.sendMessage("_মাহাবুব বস এর ,Group এ হাত মারতে নিষেধ করেছে😵 ", threadID);
+     return api.sendMessage("_😌SK Shakil(TOM)  বস এর ,Group এ হাত মারতে নিষেধ করেছে😵 ", threadID);
    };
   
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
@@ -34,7 +34,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "🥵") || (event.body.toLowerCase() == "🥵🥵🥵")) {
-     return api.sendMessage("এই গুলা কেন দেও বুঝিনা, সব মাহাবুব🥵Uffff আস্তে 🥵,আর তুমি নাহ বুঝলে আমার 😌SK Shakil(TOM) বস কে ডাক দেও🙈🙈 ??🤔 ", threadID);
+     return api.sendMessage("এই গুলা কেন দেও বুঝিনা, সব 😌SK Shakil(TOM)🥵Uffff আস্তে 🥵,আর তুমি নাহ বুঝলে আমার 😌SK Shakil(TOM) বস কে ডাক দেও🙈🙈 ??🤔 ", threadID);
    };
 
    if ((event.body.toLowerCase() == "Mahabur bot") ||(event.body.toLowerCase() == "TOM বট") ||(event.body.toLowerCase() == "Mahabub bot") ||(event.body.toLowerCase() == "mahabub bot") ||   (event.body.toLowerCase() == "mahabur bot") ||  (event.body.toLowerCase() == "মাহাবুব বট")) {
@@ -49,7 +49,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝘼𝙡𝙝𝙖𝙢𝙙𝙪𝙡𝙡𝙞𝙖𝙝 𝙫𝙡𝙤__𝙩𝙢𝙞? ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "মাহাবুব") || (event.body.toLowerCase() == "mahabur") || (event.body.toLowerCase() == "Mahabub") || (event.body.toLowerCase() == "মাহাবুর") || (event.body.toLowerCase() == "TOM") || (event.body.toLowerCase() == "TOM")) {
+   if ((event.body.toLowerCase() == "😌SK Shakil(TOM)") || (event.body.toLowerCase() == "TOM") || (event.body.toLowerCase() == "TOM") || (event.body.toLowerCase() == "TOM") || (event.body.toLowerCase() == "TOM") || (event.body.toLowerCase() == "TOM")) {
      return api.sendMessage( "আসসালামুয়ালাইকুম আমি 😌SK Shakil(TOM) এর Bot বলতে আছি? 😌SK Shakil(TOM) BOSS বিজি আছে? যা বলার আমাকে বলেন,🥰? (আবে ওই সয়তান তুই কি ওজু করছো 😌SK Shakil(TOM) বসের নাম লও? 😘",threadID);
 
    };
@@ -115,16 +115,16 @@ if ((event.body.toLowerCase() == "Call a aso shobai") || (event.body.toLowerCase
      return api.sendMessage("️Hmm Hmm Na Kore . এক বারে বলো Hey marry me🙈", threadID);
    };
 
-   if ((event.body.toLowerCase() == "মাহাবুব কে") || (event.body.toLowerCase() == "bot boss") || (event.body.toLowerCase() == "nam")) {
+   if ((event.body.toLowerCase() == "শাকিল কে") || (event.body.toLowerCase() == "bot boss") || (event.body.toLowerCase() == "nam")) {
      return api.sendMessage("️😌SK Shakil(TOM)\n\n𝗙𝗯 𝗟𝗶𝗻𝗸:https://www.facebook.com/profile.php?id=1000774580621\n\n 😹😹😹😹😹", threadID);
    };
 
    if ((event.body.toLowerCase() == "🔥") || (event.body.toLowerCase() == "❤️‍🔥")) {
-     return api.sendMessage("️ও ভাই গুরুপে আগুন লাগছে আমার ভয় লাগে, আমার মাহাবুব জানু কে কেউ ফোন দেও😛", threadID);
+     return api.sendMessage("️ও ভাই গুরুপে আগুন লাগছে আমার ভয় লাগে, আমার শাকিল জানু কে কেউ ফোন দেও😛", threadID);
    };
 
    if ((event.body.toLowerCase() == "pic daw") || (event.body.toLowerCase() == "photo daw")) {
-     return api.sendMessage("️ ইমরান বসের inbox এ জাও ওখানে দিছি😵", threadID);
+     return api.sendMessage("️ শাকিল বসের inbox এ জাও ওখানে দিছি😵", threadID);
    };
 
    if ((event.body.toLowerCase() == "বট দেও") || (event.body.toLowerCase() == "Banai daw আমক")) {
