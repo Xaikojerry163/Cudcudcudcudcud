@@ -54,7 +54,7 @@ react.includes("vuda") ||
 react.includes("heda") || 
 react.includes("bap")) {
 		var msg = {
-				body: "Ufss🥵🥵এগুলা বাদ দিয়ে ভালো হ বিরি খাওয়ার টাকা লাগলে আমার বস😌Sk Shakil(TOM) দিবো"
+react.includes("খাংকি"))				body: "Ufss🥵🥵এগুলা বাদ দিয়ে ভালো হ বিরি খাওয়ার টাকা লাগলে আমার বস😌Sk Shakil(TOM) দিবো"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
