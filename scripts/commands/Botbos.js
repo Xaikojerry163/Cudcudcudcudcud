@@ -13,7 +13,7 @@ prefix: true,
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("botboss") || react.includes("Botkar") || react.includes("karbot")) {
+	if(react.includes("boss") || react.includes("bossk") || react.includes("karbot")) {
 		var msg = {
 				body: "আসসালামু আলাইকুম🥰🥰আমি 🥰SK SHAKIL(TOM)এর ভদ্র বট!!🤍"
 			}
