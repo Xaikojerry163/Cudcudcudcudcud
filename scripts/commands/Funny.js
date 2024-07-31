@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "Botboss",
+	name: "magi",
     version: "1.1.1",
 prefix: true,
 	permssion: 0,
@@ -12,7 +12,7 @@ prefix: true,
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	let react = event.body.toLowerCase();
+	let react = event.body.toLowerCase(🥵);
 	if(react.includes("cud") || react.includes("magi") || react.includes("cudani")) {
 		var msg = {
 				body: "গালাগালি চুদাইলে আমার বস🥵SK SHAKIL(TOM)😒😒তোর দুলাভাই🥵😌😒
