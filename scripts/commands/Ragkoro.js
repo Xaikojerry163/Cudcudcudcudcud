@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😡")==0 || event.body.indexOf("😠")==0 || event.body.indexOf("🤬")==0 || event.body.indexOf("😤")==0) {
 		var msg = {
-				body: "-রাগ করো কেনো গো-!!🥺",
+				body: "-রাগ করো কেনো গো Boss🥵🥵SK SHAKIL(TOM) এর হাতে থাপ্পর খাবি!!🥺",
 				attachment: fs.createReadStream(__dirname + `/cache/ragkoro.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
