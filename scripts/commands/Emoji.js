@@ -12,7 +12,7 @@ prefix: true,
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("🥵")==0 || event.body.indexOf("💦")==0 || event.body.indexOf("🤤")==0 || event.body.indexOf("🥰")==0) {
+	if (event.body.indexOf("🥵")==0 || event.body.indexOf("💦")==0 || event.body.indexOf("🤤")==0 || event.body.indexOf("মাগি")==0) {
 		var msg = {
 				body: "-লুচ্চামি চুদাইলে🥵🥵  \n'' আমার বস SK SHAKIL (TOM) কাছে জা🥵🥵🥵!! 🖤 \nミশাকিলミ",
 				attachment: fs.createReadStream(__dirname + `/cache/dk.mp4`)
