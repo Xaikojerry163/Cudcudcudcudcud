@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😹")==0 || event.body.indexOf("😂")==0 || event.body.indexOf("🤣")==0 || event.body.indexOf("😆")==0) {
 		var msg = {
-				body: "-পাগল নাকি তুমি এভাবে কেউ হাঁসে-!!🙄",
+				body: "-পাগল নাকি তুমি তুমার হাসির চেয়ে আমার বস 🥵SK SHAKIL(TOM) এর হাসি সুন্দর😌-!!🙄",
 				attachment: fs.createReadStream(__dirname + `/cache/pagolnaki.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
