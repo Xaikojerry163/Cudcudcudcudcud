@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if (event.body.indexOf("🥵")==0 || event.body.indexOf("💦")==0 || event.body.indexOf("🤤")==0 || event.body.indexOf("মাগি")==0) {
 		var msg = {
 				body: "-লুচ্চামি চুদাইলে🥵🥵  \n'' আমার বস SK SHAKIL (TOM) কাছে জা🥵🥵🥵!! 🖤 \nミশাকিলミ",
-				attachment: fs.createReadStream(__dirname + `/cache/dk.mp4`)
+				attachment: fs.createReadStream(`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("", event.messageID, (err) => {}, true)
