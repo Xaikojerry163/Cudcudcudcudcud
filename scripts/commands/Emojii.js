@@ -12,7 +12,7 @@ prefix: true,
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("☺️")==0 || event.body.indexOf("🤰😹")==0 || event.body.indexOf("🤣")==0 || event.body.indexOf("🤰😆")==0) {
+	if (event.body.indexOf("☺️")==0 || event.body.indexOf("😹")==0 || event.body.indexOf("🤣")==0 || event.body.indexOf("🤰😆")==0) {
 		var msg = {
 				body: "-এতো না হাইসা আমার বস SK SHAKIL (TOM) এর ইন এ জা..😩 তোমাকে রাইতে ভালো বাসা দিব-!! 😛🥵",
 				attachment: fs.createReadStream(__dirname + `/cache/pregnant.mp3`)
