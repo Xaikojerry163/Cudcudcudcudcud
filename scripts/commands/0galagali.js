@@ -53,8 +53,7 @@ react.includes("tor mare xudi") ||
 react.includes("vuda") || 
 react.includes("heda") || 
 react.includes("bap")) {
-		var msg = {
-react.includes("খাংকি"))				body: "Ufss🥵🥵এগুলা বাদ দিয়ে ভালো হ বিড়ি খাওয়ার টাকা লাগলে আমার বস😌Sk Shakil(TOM) দিবো"
+		var msg =				body: "Ufss🥵🥵এগুলা বাদ দিয়ে ভালো হ বিড়ি খাওয়ার টাকা লাগলে আমার বস😌Sk Shakil(TOM) দিবো"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
