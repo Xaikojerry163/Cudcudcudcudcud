@@ -13,7 +13,7 @@ prefix: true,
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("vuda") || react.includes("magi") || react.includes("cudani")) {
+	if(react.includes("cud") || react.includes("magi") || react.includes("cudani")) {
 		var msg = {
 				body: "গালাগালি চুদাইলে আমার বস🥵SK SHAKIL(TOM)😒😒তোর দুলাভাই🥵😌😒
 			}
