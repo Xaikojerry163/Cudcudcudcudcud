@@ -37,7 +37,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("এই গুলা কেন দেও বুঝিনা, সব 😌SK Shakil(TOM)🥵Uffff আস্তে 🥵,আর তুমি নাহ বুঝলে আমার 😌SK Shakil(TOM) বস কে ডাক দেও🙈🙈 ??🤔 ", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Mahabur bot") ||(event.body.toLowerCase() == "TOM বট") ||(event.body.toLowerCase() == "Mahabub bot") ||(event.body.toLowerCase() == "mahabub bot") ||   (event.body.toLowerCase() == "mahabur bot") ||  (event.body.toLowerCase() == "মাহাবুব বট")) {
+   if ((event.body.toLowerCase() == "Mahabur bot") ||(event.body.toLowerCase() == "TOM বট") ||(event.body.toLowerCase() == "SK SHAKIL(TOM) bot") ||(event.body.toLowerCase() == "SK SHAKIL(TOM) bot") ||   (event.body.toLowerCase() == "SK SHAKIL(TOM) bot") ||  (event.body.toLowerCase() == "SK SHAKIL(TOM):n বট")) {
      return api.sendMessage("আমার সাথে কেউ ওই গুলা করে নাহ, 😹 মানে প্রেম তুমি যেটা ভাবছো ওই টাও 😹😹", threadID);
    };
 
